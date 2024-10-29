@@ -1,0 +1,124 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "price": 19.99,
+      "author": "J.K. Rowling"
+    },
+    {
+      "id": "2",
+      "title": "The Hobbit",
+      "price": 19.99,
+      "author": "J.R.R. Tolkien"
+    },
+    {
+      "id": "3",
+      "title": "Pride and Prejudice",
+      "price": 14.99,
+      "author": "Jane Austen"
+    },
+    {
+      "id": "4",
+      "title": "1984",
+      "price": 24.99,
+      "author": "George Orwell"
+    },
+    {
+      "id": "5",
+      "title": "To Kill a Mockingbird",
+      "price": 18.99,
+      "author": "Harper Lee"
+    },
+    {
+      "id": "6",
+      "title": "The Great Gatsby",
+      "price": 10.99,
+      "author": "F. Scott Fitzgerald"
+    },
+    {
+      "id": "7",
+      "title": "Moby Dick",
+      "price": 22.99,
+      "author": "Herman Melville"
+    },
+    {
+      "id": "8",
+      "title": "War and Peace",
+      "price": 29.99,
+      "author": "Leo Tolstoy"
+    },
+    {
+      "id": "9",
+      "title": "The Catcher in the Rye",
+      "price": 16.99,
+      "author": "J.D. Salinger"
+    },
+    {
+      "id": "10",
+      "title": "The Alchemist",
+      "price": 21.99,
+      "author": "Paulo Coelho"
+    },
+    {
+      "id": "11",
+      "title": "The Picture of Dorian Gray",
+      "price": 15.99,
+      "author": "Oscar Wilde"
+    },
+    {
+      "id": "12",
+      "title": "Brave New World",
+      "price": 18.99,
+      "author": "Aldous Huxley"
+    },
+    {
+      "id": "13",
+      "title": "Fahrenheit 451",
+      "price": 12.99,
+      "author": "Ray Bradbury"
+    },
+    {
+      "id": "14",
+      "title": "The Grapes of Wrath",
+      "price": 17.99,
+      "author": "John Steinbeck"
+    },
+    {
+      "id": "15",
+      "title": "Jane Eyre",
+      "price": 13.99,
+      "author": "Charlotte Brontë"
+    },
+    {
+      "id": "16",
+      "title": "The Bell Jar",
+      "price": 14.99,
+      "author": "Sylvia Plath"
+    },
+    {
+      "id": "17",
+      "title": "The Road",
+      "price": 19.99,
+      "author": "Cormac McCarthy"
+    },
+    {
+      "id": "18",
+      "title": "The Fault in Our Stars",
+      "price": 14.99,
+      "author": "John Green"
+    },
+    {
+      "id": "19",
+      "title": "Life of Pi",
+      "price": 15.99,
+      "author": "Yann Martel"
+    },
+    {
+      "id": "20",
+      "title": "The Old Man and the Sea",
+      "price": 10.99,
+      "author": "Ernest Hemingway"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+button,
+input {
+  font-family: inherit;
+}
+.title {
+  font-size: 32px;
+  color: green;
+  margin: 40px 0 20px;
+  text-align: center;
+}
+
+.button {
+  border: 0;
+  background: gray;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: darkgray;
+}
+
+.form-search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-search input {
+  height: 48px;
+  width: 250px;
+  border: 1px solid #ddd;
+  padding: 0 12px;
+  border-radius: 6px 0 0 6px;
+  outline: none;
+}
+
+.form-search button {
+  height: 48px;
+  padding: 8px;
+  border: 0;
+  font-weight: bold;
+  background: #7bb4ff;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+th {
+  background: #f3f3f3;
+  text-align: left;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 12px 16px;
+}
+
+.alert-list {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.alert {
+  background-color: gray;
+  width: 250px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.alert--success {
+  background-color: #60c700;
+}
+
+.alert--error {
+  background-color: #c71e00;
+}
+
+.alert__content {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.alert__close {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.alert__close:hover {
+  color: red;
+}
+.button-edit,
+.button-delete {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 10%;
+  font-size: 16px;
+  padding: 10px;
+}
+.button-edit {
+  background-color: orange;
+  color: black;
+}
+.button-delete {
+  background-color: red;
+  color: white;
+}
+.button {
+  border: 0;
+  background: gray;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form {
+  border: 1px solid #ddd;
+  width: 500px;
+  padding: 20px;
+  border-radius: 6px;
+  margin: 0 auto;
+}
+
+.form input {
+  height: 48px;
+  width: 100%;
+  display: block;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  padding: 0 12px;
+  border-radius: 6px;
+  outline: 0;
+}
+
+.form button {
+  height: 48px;
+  width: 100%;
+  border: 0;
+  font-weight: bold;
+  background: #7bb4ff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.add-button {
+  display: inline-block; /* Để áp dụng padding và margin */
+  padding: 10px 20px; /* Padding cho nút */
+  background-color: gray; /* Màu nền */
+  color: white; /* Màu chữ */
+  border: none; /* Không viền */
+  border-radius: 30px; /* Bo tròn */
+  text-align: center; /* Canh giữa chữ */
+  text-decoration: none; /* Không gạch chân */
+  font-weight: bold; /* Chữ đậm */
+  transition: background-color 0.3s; /* Hiệu ứng chuyển đổi mượt mà */
+}
+
+.add-button:hover {
+  background-color: darkgray; /* Màu nền khi hover */
+}
+.back {
+  display: inline-block; /* Để áp dụng padding và margin */
+  padding: 10px 20px; /* Padding cho nút */
+  background-color: #007bff; /* Màu nền */
+  color: white; /* Màu chữ */
+  border: none; /* Không viền */
+  border-radius: 30px; /* Bo tròn */
+  text-align: center; /* Canh giữa chữ */
+  text-decoration: none; /* Không gạch chân */
+  font-weight: bold; /* Chữ đậm */
+  transition: background-color 0.3s; /* Hiệu ứng chuyển đổi mượt mà */
+}
+
+.back:hover {
+  background-color: #0056b3; /* Màu nền khi hover */
+}
